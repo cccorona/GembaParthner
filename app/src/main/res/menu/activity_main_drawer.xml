@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_person_black_48dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Garage" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_assignment_black_48dp"
+            android:title="Configuraciones" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_assignment_black_48dp"
+            android:title="Salir" />
+    </group>
+
+    <item android:title="Difunde">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+
+        </menu>
+    </item>
+
+</menu>

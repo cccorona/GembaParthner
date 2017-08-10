@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0099cc</color>
+    <color name="colorGray">#3D4657</color>
+    <color name="colorEndGray">#7D7677</color>
+    <color name="colorStartGray">#344457</color>
+    <color name="textPrimary">#33b5e5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFF</color>
+
+
+    <!--"Züggig” colors-->
+    <color name="blue_zuggig">#23c1df</color>
+    <color name="green_zuggig">#d3df44</color>
+    <color name="red_zuggig">#ee2331</color>
+    <color name="orange_zuggig">#f78e30</color>
+    <color name="blue_zuffig_fog">#EE23c1df</color>
+    <color name="transpa">#FFFFFFFF</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "266189192983",
+    "firebase_url": "https://gemba-3c3df.firebaseio.com",
+    "project_id": "gemba-3c3df",
+    "storage_bucket": "gemba-3c3df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266189192983:android:20043b3d9e2a27f1",
+        "android_client_info": {
+          "package_name": "mx.com.cesarcorona.gembaparthner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266189192983-msudchg4c0f2ujouea0dup7mo0koqtr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgtvwbf8iClzamf47pQN0gGUEEgYDQ4rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
