@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context="mx.com.cesarcorona.gembaparthner.fragments.WizardFragmentProfile">
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_picture"
+            android:src="@drawable/if_profle_1055000"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <EditText
+            android:singleLine="true"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:id="@+id/nombre_field"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:background="@drawable/rounded_big"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:lines="1"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/apellido_field"
+            android:gravity="center"
+            android:hint="Apellido"
+            android:background="@drawable/rounded_big"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:lines="1"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:id="@+id/telefono_field"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="Telefono"
+            android:background="@drawable/rounded_big"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

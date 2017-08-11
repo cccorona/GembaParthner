@@ -14,7 +14,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -26,9 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.LoginRegisterActivity" />
-        <activity
-            android:name=".activities.tab"
-            android:label="@string/title_activity_tab"></activity>
+        <activity android:name=".activities.WizardActivity"></activity>
     </application>
 
 </manifest>
