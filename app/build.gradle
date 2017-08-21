@@ -41,6 +41,8 @@ dependencies {
     compile 'com.stepstone.stepper:material-stepper:4.0.0'
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.android.gms:play-services-places:10.2.6'
+
 
 
     testCompile 'junit:junit:4.12'

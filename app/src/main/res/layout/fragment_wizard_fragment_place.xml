@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context="mx.com.cesarcorona.gembaparthner.fragments.WizardFragmentProfile">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:inputType="none"
+            android:editable="false"
+            android:singleLine="true"
+            android:lines="1"
+            android:imeOptions="actionNext"
+            android:id="@+id/adress_text"
+            android:gravity="center"
+            android:hint="Agregar Direccion"
+            android:background="@drawable/rounded_big"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <fragment
+            android:layout_margin="30dp"
+            android:id="@+id/place_autocomplete_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment"
+            />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

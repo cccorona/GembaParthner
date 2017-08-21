@@ -27,11 +27,17 @@ public class WizardAdapter extends AbstractFragmentStepAdapter {
     public Step createStep(int position) {
          switch (position){
              case 0:
-                 return  new WizardFragmentProfile();
+                 Step step = new WizardFragmentProfile();
+                 ((WizardFragmentProfile)step).setOnProfilePictureInterface((WizardFragmentProfile.OnProfilePictureInterface) context);
+             return  step;
              case 1:
-                 return  new WizardFragmentPlace();
+                 Step step1 =  new WizardFragmentPlace();
+                 ((WizardFragmentPlace)step1).setPlaceInterface((WizardFragmentPlace.OnPlaceInterface) context);
+                 return step1;
              case 2:
-                 return new WizardFragmentDocuments();
+                 Step step2 = new WizardFragmentDocuments();
+                 ((WizardFragmentDocuments)step2).setOnDocumentsInterface((WizardFragmentDocuments.OnDocumentsInterface) context);
+                 return step2;
 
          }
          return null;

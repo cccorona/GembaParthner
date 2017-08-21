@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCW9smc_0P64qfXNJRfxd4kIW_jLcQswZ4"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

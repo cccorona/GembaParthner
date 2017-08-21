@@ -71,7 +71,7 @@ public class LoginRegisterActivity extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     FirebaseCrash.log(TAG+" onAuthStateChanged:signed_in:" + user.getUid());
-                    Intent mainActivity = new Intent(LoginRegisterActivity.this,MainActivity.class);
+                    Intent mainActivity = new Intent(LoginRegisterActivity.this,WizardActivity.class);
                     startActivity(mainActivity);
                     finish();
                 } else {

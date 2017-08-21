@@ -17,6 +17,9 @@ import com.squareup.picasso.Picasso;
 import com.stepstone.stepper.Step;
 import com.stepstone.stepper.VerificationError;
 
+
+import android.net.Uri;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 import mx.com.cesarcorona.gembaparthner.R;
 
@@ -32,6 +35,16 @@ public class WizardFragmentProfile extends Fragment implements Step {
 
     private static int RESULT_LOAD_IMAGE = 1;
 
+    private OnProfilePictureInterface onProfilePictureInterface;
+
+
+    public interface  OnProfilePictureInterface{
+        void OnProfileSelected(Uri url);
+    }
+
+    public void setOnProfilePictureInterface(OnProfilePictureInterface onProfilePictureInterface) {
+        this.onProfilePictureInterface = onProfilePictureInterface;
+    }
 
 
     @Override
@@ -87,6 +100,9 @@ public class WizardFragmentProfile extends Fragment implements Step {
         if(requestCode == RESULT_LOAD_IMAGE){
             Picasso.with(getActivity()).load(data.getData()).noPlaceholder()
                     .into(profileLoader);
+            if(onProfilePictureInterface != null){
+                onProfilePictureInterface.OnProfileSelected(data.getData());
+            }
 
         }
     }
